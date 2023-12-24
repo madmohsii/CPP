@@ -8,7 +8,7 @@ This is a sample project that lets you try out either option in a few easy steps
 
 > **Note:** Ifyou already have a Codespace or dev container, you can jump to the [Things to try](#things-to-try) section.
 
-## Setting up the development container
+## Setting up thedevelopment container
 
 ### GitHub Codespaces
 Follow these steps to open this sample in a Codespace:
