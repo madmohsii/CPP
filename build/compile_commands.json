@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/workspaces/CPP/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/TP2.dir/main.cpp.o -c /workspaces/CPP/main.cpp",
+  "file": "/workspaces/CPP/main.cpp"
+},
+{
+  "directory": "/workspaces/CPP/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/TP2.dir/Vehicule.cpp.o -c /workspaces/CPP/Vehicule.cpp",
+  "file": "/workspaces/CPP/Vehicule.cpp"
+}
+]
