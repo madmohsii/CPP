@@ -1,11 +1,18 @@
 #include "Voiture.hpp"
 
-#using namespace std;
+using namespace std;
 
 Voiture::Voiture() {
    m_couleur="rouge";
    m_vitesse=50;
    m_marque="renault";
+   cout<<"un objet vient d'etre cree"<<endl;
+}
+
+Voiture::Voiture(string coul, int vit, string marq) {
+   m_couleur=coul;
+   m_vitesse=vit;
+   m_marque=marq;
    cout<<"un objet vient d'etre cree"<<endl;
 }
 

@@ -13,6 +13,7 @@ class Voiture {
 
     public:
     Voiture();
+    Voiture(string coul, int vit, string marq);
     ~Voiture();
     std::string m_couleur;
     void setMarque(std::string marq);

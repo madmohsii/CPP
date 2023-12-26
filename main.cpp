@@ -5,11 +5,12 @@ using namespace std ;
 
 int main()
 {
-   Voiture gamos;
+   Voiture * ptr_gamos = new Voiture;
 
-   gamos.getCouleur();
-   gamos.setCouleur("verte");
-   gamos.getCouleur();
+   ptr_gamos->getCouleur();
+   ptr_gamos->setCouleur("verte");
+   ptr_gamos->getCouleur();
+   delete ptr_gamos;
 
     return 0;
 }
