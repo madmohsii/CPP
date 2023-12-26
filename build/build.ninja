@@ -282,6 +282,12 @@ build CMakeFiles/TP2.dir/Vehicule.cpp.o: CXX_COMPILER__TP2_Debug ../Vehicule.cpp
   OBJECT_DIR = CMakeFiles/TP2.dir
   OBJECT_FILE_DIR = CMakeFiles/TP2.dir
 
+build CMakeFiles/TP2.dir/Scooter.cpp.o: CXX_COMPILER__TP2_Debug ../Scooter.cpp || cmake_object_order_depends_target_TP2
+  DEP_FILE = CMakeFiles/TP2.dir/Scooter.cpp.o.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/TP2.dir
+  OBJECT_FILE_DIR = CMakeFiles/TP2.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target TP2
@@ -290,7 +296,7 @@ build CMakeFiles/TP2.dir/Vehicule.cpp.o: CXX_COMPILER__TP2_Debug ../Vehicule.cpp
 #############################################
 # Link the executable TP2
 
-build TP2: CXX_EXECUTABLE_LINKER__TP2_Debug CMakeFiles/TP2.dir/main.cpp.o CMakeFiles/TP2.dir/Vehicule.cpp.o
+build TP2: CXX_EXECUTABLE_LINKER__TP2_Debug CMakeFiles/TP2.dir/main.cpp.o CMakeFiles/TP2.dir/Vehicule.cpp.o CMakeFiles/TP2.dir/Scooter.cpp.o
   FLAGS = -g
   LINK_FLAGS = -rdynamic
   OBJECT_DIR = CMakeFiles/TP2.dir
