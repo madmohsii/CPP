@@ -5,12 +5,7 @@
 #include <iostream>
 
 class Voiture {
-
-    private:
-
-    std::string m_marque;
-    int m_vitesse;
-
+ 
     public:
     Voiture();
     ~Voiture();
@@ -21,6 +16,10 @@ class Voiture {
     void getMarque();
     void getVitesse();
     void getCouleur();
+    
+    private:
+    std::string m_marque;
+    int m_vitesse;
 
 };
 

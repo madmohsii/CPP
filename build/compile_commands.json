@@ -3,5 +3,10 @@
   "directory": "/workspaces/CPP/build",
   "command": "/usr/bin/g++ -g -o CMakeFiles/TP1.dir/main.cpp.o -c /workspaces/CPP/main.cpp",
   "file": "/workspaces/CPP/main.cpp"
+},
+{
+  "directory": "/workspaces/CPP/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/TP1.dir/Voiture.cpp.o -c /workspaces/CPP/Voiture.cpp",
+  "file": "/workspaces/CPP/Voiture.cpp"
 }
 ]
