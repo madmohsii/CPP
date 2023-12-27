@@ -3,12 +3,17 @@
 
 using namespace std;
 
-Scooter::Scooter(){
-    Vehicule();
+Scooter::Scooter():Vehicule(){
+    
 }
 
 Scooter::Scooter(string coul, string marq, int vit, int pos, int cyl):  Vehicule(coul, marq, vit, pos) {
    m_cylindree=cyl;
+}
+
+Scooter::Scooter(const Scooter& autre):Vehicule(autre){
+    m_cylindree=autre.m_cylindree;
+
 }
 
 Scooter::~Scooter(){

@@ -13,6 +13,7 @@ class Vehicule {
     public:
     Vehicule();
     Vehicule(std::string coul, std::string marq, int vit, int pos);
+    Vehicule(const Vehicule &autre);
     ~Vehicule();
     void setVitesse(int vit);
     void setCouleur(std::string coul);

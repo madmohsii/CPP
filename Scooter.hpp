@@ -12,6 +12,7 @@ int m_cylindree;
 public :
 Scooter();
 Scooter(std::string coul, std::string marq, int vit, int pos, int cyl);
+Scooter(const Scooter& autre);
 ~Scooter();
 void setCylindree(int cyl);
 void getCylindree();

@@ -19,6 +19,14 @@ Vehicule::Vehicule(string coul, string marq, int vit, int pos){
     cout<<"Un objet a ete cree"<<endl;
 }
 
+Vehicule::Vehicule(const Vehicule &autre){
+     m_couleur=autre.m_couleur;
+   m_marque=autre.m_marque;
+    m_vitesse=autre.m_vitesse;
+    m_pos=autre.m_pos;
+    cout<<"Un objet recopie a ete cree"<<endl;
+}
+
 Vehicule::~Vehicule(){
     cout<<"un objet a ete detruit"<<endl;
 }
