@@ -13,5 +13,10 @@
   "directory": "/workspaces/CPP/build",
   "command": "/usr/bin/g++ -g -o CMakeFiles/TP2.dir/Scooter.cpp.o -c /workspaces/CPP/Scooter.cpp",
   "file": "/workspaces/CPP/Scooter.cpp"
+},
+{
+  "directory": "/workspaces/CPP/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/TP2.dir/Camion.cpp.o -c /workspaces/CPP/Camion.cpp",
+  "file": "/workspaces/CPP/Camion.cpp"
 }
 ]

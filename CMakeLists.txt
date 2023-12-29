@@ -4,7 +4,7 @@ project(TP2 VERSION 0.1.0 LANGUAGES C CXX)
 include(CTest)
 enable_testing()
 
-add_executable(TP2 main.cpp Vehicule.cpp Scooter.cpp)
+add_executable(TP2 main.cpp Vehicule.cpp Scooter.cpp Camion.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
