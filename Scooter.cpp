@@ -3,31 +3,32 @@
 
 using namespace std;
 
-Scooter::Scooter():Vehicule(){
-    
+Scooter::Scooter() : Vehicule()
+{
 }
 
-Scooter::Scooter(string coul, string marq, int vit, int pos, int cyl):  Vehicule(coul, marq, vit, pos) {
-   m_cylindree=cyl;
+Scooter::Scooter(string coul, string marq, int vit, int pos, int cyl) : Vehicule(coul, marq, vit, pos)
+{
+    m_cylindree = cyl;
 }
 
-Scooter::Scooter(const Scooter& autre):Vehicule(autre){
-    m_cylindree=autre.m_cylindree;
-
+Scooter::Scooter(const Scooter &autre) : Vehicule(autre)
+{
+    m_cylindree = autre.m_cylindree;
 }
 
-Scooter::~Scooter(){
+Scooter::~Scooter()
+{
 
-    cout<<"un objet a ete detrui"<<endl;
-
+    cout << "un objet a ete detrui" << endl;
 }
 
-void Scooter::setCylindree(int cyl){
-    m_cylindree=cyl;
+void Scooter::setCylindree(int cyl)
+{
+    m_cylindree = cyl;
 }
 
-void Scooter::getCylindree(){
-    cout<<"la cylindree est de "<<m_cylindree<<endl;
+void Scooter::getCylindree() const
+{
+    cout << "la cylindree est de " << m_cylindree << endl;
 }
-
-
