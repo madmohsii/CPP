@@ -14,7 +14,8 @@ class Vehicule {
     Vehicule();
     Vehicule(std::string coul, std::string marq, int vit, int pos);
     Vehicule(const Vehicule &autre);
-    ~Vehicule();
+    virtual ~Vehicule();
+    virtual void afficheDonne() const=0;
     void setVitesse(int vit);
     void setCouleur(std::string coul);
     void setMarque(std::string marq);

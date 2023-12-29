@@ -31,3 +31,9 @@ void Camion::setPoidsCharge(int poids){
     m_poidsCharge=poids;
 }
 
+void Camion::afficheDonne() const  {
+ std::cout << "Dessin d'un camion." << std::endl;
+ }
+
+
+

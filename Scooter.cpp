@@ -32,3 +32,8 @@ void Scooter::getCylindree() const
 {
     cout << "la cylindree est de " << m_cylindree << endl;
 }
+
+void Scooter::afficheDonne() const
+{
+    std::cout << "Dessin d'un scooter." << std::endl;
+}

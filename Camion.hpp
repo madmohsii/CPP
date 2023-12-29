@@ -14,6 +14,7 @@ public:
     Camion(std::string coul, std::string marq, int vit, int pos, int poids);
     Camion(const Camion &autre);
     ~Camion();
+    void afficheDonne() const override;
     void setPoidsCharge(int poids);
     void getPoidsCharge() const;
 };

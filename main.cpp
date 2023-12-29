@@ -20,5 +20,9 @@ int main()
     toto.getPoidsCharge();
     Camion toto2(toto);
     toto2.getCouleur();
+    toto2.afficheDonne();
+    gamos3.afficheDonne();
+    Scooter *ptr_test=new Scooter(gamos3);
+    ptr_test->afficheDonne();
     return 0;
 }

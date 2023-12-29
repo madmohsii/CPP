@@ -16,6 +16,7 @@ Scooter(const Scooter& autre);
 ~Scooter();
 void setCylindree(int cyl);
 void getCylindree() const;
+void afficheDonne() const override;
 
 
 
