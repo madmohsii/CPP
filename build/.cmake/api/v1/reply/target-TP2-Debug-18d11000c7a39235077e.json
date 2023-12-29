@@ -80,6 +80,13 @@
 				1,
 				2
 			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				3
+			]
 		}
 	],
 	"sources" : 
@@ -101,6 +108,11 @@
 			"compileGroupIndex" : 0,
 			"path" : "Scooter.cpp",
 			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Camion.hpp",
+			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"
